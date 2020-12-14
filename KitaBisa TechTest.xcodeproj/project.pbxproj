@@ -7,28 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C3186C825877B3700491D87 /* KitaBisa_TechTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3186C725877B3700491D87 /* KitaBisa_TechTestTests.swift */; };
+		4C3186D825877B6100491D87 /* KitaBisa_TechTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3186D725877B6100491D87 /* KitaBisa_TechTestUITests.swift */; };
+		4C75F3B92585400300B8090D /* MovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C75F3B82585400300B8090D /* MovieDetailVC.swift */; };
+		4C75F3BC258549B900B8090D /* reviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C75F3BB258549B800B8090D /* reviewCell.swift */; };
+		4C75F3BF25854C6300B8090D /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C75F3BE25854C6300B8090D /* Review.swift */; };
 		4C9AB7AF2583E465004DA3E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9AB7AE2583E465004DA3E9 /* AppDelegate.swift */; };
 		4C9AB7B12583E465004DA3E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9AB7B02583E465004DA3E9 /* SceneDelegate.swift */; };
-		4C9AB7B32583E465004DA3E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9AB7B22583E465004DA3E9 /* ViewController.swift */; };
+		4C9AB7B32583E465004DA3E9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9AB7B22583E465004DA3E9 /* HomeVC.swift */; };
 		4C9AB7B62583E465004DA3E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9AB7B42583E465004DA3E9 /* Main.storyboard */; };
 		4C9AB7B92583E465004DA3E9 /* KitaBisa_TechTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C9AB7B72583E465004DA3E9 /* KitaBisa_TechTest.xcdatamodeld */; };
 		4C9AB7BB2583E465004DA3E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9AB7BA2583E465004DA3E9 /* Assets.xcassets */; };
 		4C9AB7BE2583E465004DA3E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9AB7BC2583E465004DA3E9 /* LaunchScreen.storyboard */; };
+		4C9AB7D72583E5D7004DA3E9 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9AB7D62583E5D7004DA3E9 /* Movies.swift */; };
+		4C9AB7EB2583FDFE004DA3E9 /* movieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9AB7EA2583FDFE004DA3E9 /* movieCell.swift */; };
+		4CE5603125875B1E00C8258F /* LikedMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5603025875B1E00C8258F /* LikedMovieVC.swift */; };
+		4CE5603425875B5400C8258F /* likedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5603325875B5400C8258F /* likedCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4C3186CA25877B3700491D87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9AB7A32583E464004DA3E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C9AB7AA2583E464004DA3E9;
+			remoteInfo = "KitaBisa TechTest";
+		};
+		4C3186DA25877B6100491D87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9AB7A32583E464004DA3E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C9AB7AA2583E464004DA3E9;
+			remoteInfo = "KitaBisa TechTest";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4C3186C525877B3700491D87 /* KitaBisa TechTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KitaBisa TechTestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3186C725877B3700491D87 /* KitaBisa_TechTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitaBisa_TechTestTests.swift; sourceTree = "<group>"; };
+		4C3186C925877B3700491D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3186D525877B6100491D87 /* KitaBisa TechTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KitaBisa TechTestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3186D725877B6100491D87 /* KitaBisa_TechTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitaBisa_TechTestUITests.swift; sourceTree = "<group>"; };
+		4C3186D925877B6100491D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C75F3B82585400300B8090D /* MovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVC.swift; sourceTree = "<group>"; };
+		4C75F3BB258549B800B8090D /* reviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviewCell.swift; sourceTree = "<group>"; };
+		4C75F3BE25854C6300B8090D /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		4C9AB7AB2583E465004DA3E9 /* KitaBisa TechTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KitaBisa TechTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9AB7AE2583E465004DA3E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C9AB7B02583E465004DA3E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C9AB7B22583E465004DA3E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C9AB7B22583E465004DA3E9 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		4C9AB7B52583E465004DA3E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C9AB7B82583E465004DA3E9 /* KitaBisa_TechTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KitaBisa_TechTest.xcdatamodel; sourceTree = "<group>"; };
 		4C9AB7BA2583E465004DA3E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C9AB7BD2583E465004DA3E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C9AB7BF2583E465004DA3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C9AB7D62583E5D7004DA3E9 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		4C9AB7EA2583FDFE004DA3E9 /* movieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieCell.swift; sourceTree = "<group>"; };
+		4CE5603025875B1E00C8258F /* LikedMovieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedMovieVC.swift; sourceTree = "<group>"; };
+		4CE5603325875B5400C8258F /* likedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = likedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4C3186C225877B3700491D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3186D225877B6100491D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C9AB7A82583E464004DA3E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,10 +92,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C3186C625877B3700491D87 /* KitaBisa TechTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3186C725877B3700491D87 /* KitaBisa_TechTestTests.swift */,
+				4C3186C925877B3700491D87 /* Info.plist */,
+			);
+			path = "KitaBisa TechTestTests";
+			sourceTree = "<group>";
+		};
+		4C3186D625877B6100491D87 /* KitaBisa TechTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3186D725877B6100491D87 /* KitaBisa_TechTestUITests.swift */,
+				4C3186D925877B6100491D87 /* Info.plist */,
+			);
+			path = "KitaBisa TechTestUITests";
+			sourceTree = "<group>";
+		};
+		4C3186E525877BB600491D87 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4C9AB7B22583E465004DA3E9 /* HomeVC.swift */,
+				4C75F3B82585400300B8090D /* MovieDetailVC.swift */,
+				4CE5603025875B1E00C8258F /* LikedMovieVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4C3186E925877BC300491D87 /* CellHandler */ = {
+			isa = PBXGroup;
+			children = (
+				4C9AB7EA2583FDFE004DA3E9 /* movieCell.swift */,
+				4C75F3BB258549B800B8090D /* reviewCell.swift */,
+				4CE5603325875B5400C8258F /* likedCell.swift */,
+			);
+			path = CellHandler;
+			sourceTree = "<group>";
+		};
+		4C3186ED25877BD300491D87 /* ObjectHandler */ = {
+			isa = PBXGroup;
+			children = (
+				4C9AB7D62583E5D7004DA3E9 /* Movies.swift */,
+				4C75F3BE25854C6300B8090D /* Review.swift */,
+			);
+			path = ObjectHandler;
+			sourceTree = "<group>";
+		};
 		4C9AB7A22583E464004DA3E9 = {
 			isa = PBXGroup;
 			children = (
 				4C9AB7AD2583E465004DA3E9 /* KitaBisa TechTest */,
+				4C3186C625877B3700491D87 /* KitaBisa TechTestTests */,
+				4C3186D625877B6100491D87 /* KitaBisa TechTestUITests */,
 				4C9AB7AC2583E465004DA3E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				4C9AB7AB2583E465004DA3E9 /* KitaBisa TechTest.app */,
+				4C3186C525877B3700491D87 /* KitaBisa TechTestTests.xctest */,
+				4C3186D525877B6100491D87 /* KitaBisa TechTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,7 +164,9 @@
 			children = (
 				4C9AB7AE2583E465004DA3E9 /* AppDelegate.swift */,
 				4C9AB7B02583E465004DA3E9 /* SceneDelegate.swift */,
-				4C9AB7B22583E465004DA3E9 /* ViewController.swift */,
+				4C3186E525877BB600491D87 /* ViewController */,
+				4C3186E925877BC300491D87 /* CellHandler */,
+				4C3186ED25877BD300491D87 /* ObjectHandler */,
 				4C9AB7B42583E465004DA3E9 /* Main.storyboard */,
 				4C9AB7BA2583E465004DA3E9 /* Assets.xcassets */,
 				4C9AB7BC2583E465004DA3E9 /* LaunchScreen.storyboard */,
@@ -73,6 +179,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4C3186C425877B3700491D87 /* KitaBisa TechTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3186CE25877B3700491D87 /* Build configuration list for PBXNativeTarget "KitaBisa TechTestTests" */;
+			buildPhases = (
+				4C3186C125877B3700491D87 /* Sources */,
+				4C3186C225877B3700491D87 /* Frameworks */,
+				4C3186C325877B3700491D87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3186CB25877B3700491D87 /* PBXTargetDependency */,
+			);
+			name = "KitaBisa TechTestTests";
+			productName = "KitaBisa TechTestTests";
+			productReference = 4C3186C525877B3700491D87 /* KitaBisa TechTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C3186D425877B6100491D87 /* KitaBisa TechTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3186DC25877B6100491D87 /* Build configuration list for PBXNativeTarget "KitaBisa TechTestUITests" */;
+			buildPhases = (
+				4C3186D125877B6100491D87 /* Sources */,
+				4C3186D225877B6100491D87 /* Frameworks */,
+				4C3186D325877B6100491D87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3186DB25877B6100491D87 /* PBXTargetDependency */,
+			);
+			name = "KitaBisa TechTestUITests";
+			productName = "KitaBisa TechTestUITests";
+			productReference = 4C3186D525877B6100491D87 /* KitaBisa TechTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		4C9AB7AA2583E464004DA3E9 /* KitaBisa TechTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C9AB7C22583E465004DA3E9 /* Build configuration list for PBXNativeTarget "KitaBisa TechTest" */;
@@ -99,6 +241,14 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					4C3186C425877B3700491D87 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4C9AB7AA2583E464004DA3E9;
+					};
+					4C3186D425877B6100491D87 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4C9AB7AA2583E464004DA3E9;
+					};
 					4C9AB7AA2583E464004DA3E9 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -118,11 +268,27 @@
 			projectRoot = "";
 			targets = (
 				4C9AB7AA2583E464004DA3E9 /* KitaBisa TechTest */,
+				4C3186C425877B3700491D87 /* KitaBisa TechTestTests */,
+				4C3186D425877B6100491D87 /* KitaBisa TechTestUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4C3186C325877B3700491D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3186D325877B6100491D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C9AB7A92583E464004DA3E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -136,18 +302,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4C3186C125877B3700491D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3186C825877B3700491D87 /* KitaBisa_TechTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3186D125877B6100491D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3186D825877B6100491D87 /* KitaBisa_TechTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C9AB7A72583E464004DA3E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9AB7B32583E465004DA3E9 /* ViewController.swift in Sources */,
+				4C75F3B92585400300B8090D /* MovieDetailVC.swift in Sources */,
+				4C9AB7EB2583FDFE004DA3E9 /* movieCell.swift in Sources */,
+				4C75F3BF25854C6300B8090D /* Review.swift in Sources */,
+				4CE5603125875B1E00C8258F /* LikedMovieVC.swift in Sources */,
+				4C9AB7D72583E5D7004DA3E9 /* Movies.swift in Sources */,
+				4C9AB7B32583E465004DA3E9 /* HomeVC.swift in Sources */,
 				4C9AB7B92583E465004DA3E9 /* KitaBisa_TechTest.xcdatamodeld in Sources */,
+				4C75F3BC258549B900B8090D /* reviewCell.swift in Sources */,
 				4C9AB7AF2583E465004DA3E9 /* AppDelegate.swift in Sources */,
+				4CE5603425875B5400C8258F /* likedCell.swift in Sources */,
 				4C9AB7B12583E465004DA3E9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C3186CB25877B3700491D87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C9AB7AA2583E464004DA3E9 /* KitaBisa TechTest */;
+			targetProxy = 4C3186CA25877B3700491D87 /* PBXContainerItemProxy */;
+		};
+		4C3186DB25877B6100491D87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C9AB7AA2583E464004DA3E9 /* KitaBisa TechTest */;
+			targetProxy = 4C3186DA25877B6100491D87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4C9AB7B42583E465004DA3E9 /* Main.storyboard */ = {
@@ -169,6 +371,84 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4C3186CC25877B3700491D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9BW93SVNT;
+				INFOPLIST_FILE = "KitaBisa TechTestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielanadi.KitaBisa-TechTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KitaBisa TechTest.app/KitaBisa TechTest";
+			};
+			name = Debug;
+		};
+		4C3186CD25877B3700491D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9BW93SVNT;
+				INFOPLIST_FILE = "KitaBisa TechTestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielanadi.KitaBisa-TechTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KitaBisa TechTest.app/KitaBisa TechTest";
+			};
+			name = Release;
+		};
+		4C3186DD25877B6100491D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9BW93SVNT;
+				INFOPLIST_FILE = "KitaBisa TechTestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielanadi.KitaBisa-TechTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KitaBisa TechTest";
+			};
+			name = Debug;
+		};
+		4C3186DE25877B6100491D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9BW93SVNT;
+				INFOPLIST_FILE = "KitaBisa TechTestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielanadi.KitaBisa-TechTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KitaBisa TechTest";
+			};
+			name = Release;
+		};
 		4C9AB7C02583E465004DA3E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -326,6 +606,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4C3186CE25877B3700491D87 /* Build configuration list for PBXNativeTarget "KitaBisa TechTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3186CC25877B3700491D87 /* Debug */,
+				4C3186CD25877B3700491D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3186DC25877B6100491D87 /* Build configuration list for PBXNativeTarget "KitaBisa TechTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3186DD25877B6100491D87 /* Debug */,
+				4C3186DE25877B6100491D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4C9AB7A62583E464004DA3E9 /* Build configuration list for PBXProject "KitaBisa TechTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
